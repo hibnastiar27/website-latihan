@@ -1,0 +1,213 @@
+/* css reset box-model */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Akhir css reset */
+
+/* Css Main */
+body {
+  background-color: #f0f2f5;
+}
+
+.container {
+  width: 1180px;
+  height: 200px;
+  margin: 0px auto;
+  /* background-color: #295eaf; */
+}
+
+/* kolom kanan */
+.logo img {
+  width: 200px;
+  margin-top: 90px;
+}
+
+.logo h1 {
+  font-family: "Segoe UI", sans-serif;
+  font-size: 32px;
+  margin-top: -10px;
+  margin-left: 20px;
+}
+
+.logo h2 {
+  font-family: "Segoe UI", sans-serif;
+  font-size: 16px;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+.box-img a {
+  width: 160px;
+  height: 200px;
+  margin-top: 20px;
+  margin-left: 20px;
+  border-radius: 12px;
+  background-color: #fff;
+  border: 1px solid rgba(128, 128, 128, 0.5);
+  text-decoration: none;
+  overflow: hidden;
+  float: left;
+}
+
+.satu .name1 {
+  margin-top: 5px;
+  font-family: "Segoe UI", sans-serif;
+  color: black;
+  font-size: 18px;
+  text-align: center;
+}
+
+.satu:hover {
+  /* box-shadow:(inset) (x-ofset) (y-ofset) (blur) (spread) (color) */
+  box-shadow: 0px 0px 10px 1px rgba(172, 172, 172, 0.5);
+}
+
+.dua .name2 {
+  margin-top: 5px;
+  font-family: "Segoe UI", sans-serif;
+  color: black;
+  font-size: 18px;
+  text-align: center;
+}
+
+.dua:hover {
+  /* box-shadow:(inset) (x-ofset) (y-ofset) (blur) (spread) (color) */
+  box-shadow: 0px 0px 10px 1px rgba(172, 172, 172, 0.5);
+}
+
+/* kolom kiri */
+aside {
+  float: right;
+}
+
+aside .kotak-form {
+  width: 200px;
+  height: 200px;
+  background-color: #fff;
+}
