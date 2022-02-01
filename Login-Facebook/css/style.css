@@ -136,7 +136,7 @@ body {
 }
 
 .container {
-  width: 1180px;
+  width: 980px;
   height: 200px;
   margin: 0px auto;
   /* background-color: #295eaf; */
@@ -157,9 +157,10 @@ body {
 
 .logo h2 {
   font-family: "Segoe UI", sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   margin-top: 5px;
   margin-left: 20px;
+  opacity: 0.9;
 }
 
 .box-img a {
@@ -207,10 +208,10 @@ aside {
 }
 
 aside .kotak-form {
-  width: 450px;
-  height: 450px;
+  width: 400px;
+  height: 355px;
   border-radius: 12px;
-  box-shadow: 0px 0px 10px 1px rgba(172, 172, 172, 0.5);
+  box-shadow: 0px 5px 10px 1px rgba(172, 172, 172, 0.5);
   margin-top: -80px;
   margin-right: 20px;
   background-color: #fff;
@@ -219,9 +220,9 @@ aside .kotak-form {
 .kotak-form .email {
   width: 350px;
   height: 50px;
-  margin: 0px 42px;
+  margin: 0px 18px;
   margin-bottom: 20px;
-  margin-top: 48px;
+  margin-top: 20px;
   font-size: 16px;
   padding-left: 12px;
   border-radius: 5px;
@@ -231,27 +232,17 @@ aside .kotak-form {
 .kotak-form .pw {
   width: 350px;
   height: 50px;
-  margin: auto 42px;
+  margin: auto 18px;
   font-size: 16px;
   padding-left: 12px;
   border-radius: 5px;
   border: 1px solid #dddfe2;
 }
 
-.kotak-form a {
-  display: inline-block;
-  text-decoration: none;
-  margin: 0px 162px;
-  margin-top: 20px;
-  font-family: "Segoe UI", sans-serif;
-  font-size: 16px;
-  color: #1877f2;
-}
-
 .kotak-form .btn-login {
   width: 362px;
   height: 50px;
-  margin: auto 45px;
+  margin: auto 19px;
   margin-top: 20px;
   border-radius: 5px;
   border: none;
@@ -261,20 +252,42 @@ aside .kotak-form {
   background-color: #1877f2;
 }
 
+.kotak-form a {
+  display: inline-block;
+  text-decoration: none;
+  margin: 0px 137px;
+  margin-top: 20px;
+  font-family: "Segoe UI", sans-serif;
+  font-size: 16px;
+  color: #1877f2;
+}
+
 .kotak-form .garis {
   border: 1px solid #dadde1;
   margin: 15px 30px;
 }
 
 .kotak-form .btn-signup {
-  width: 362px;
+  width: 150px;
   height: 50px;
-  margin: auto 45px;
-  margin-top: 20px;
+  margin: auto 125px;
+  margin-top: 0px;
   border-radius: 5px;
   border: none;
   font-family: "Segoe UI", sans-serif;
   font-size: 16px;
   color: #fff;
   background-color: #42b72a;
+}
+
+aside h3 {
+  font-family: "Segoe UI", sans-serif;
+  margin: 0px 25px;
+  margin-top: 20px;
+}
+
+aside h3 a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
 }
