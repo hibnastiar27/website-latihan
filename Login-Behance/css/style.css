@@ -1,7 +1,12 @@
+@font-face {
+  font-family: Source Sans Pro;
+  src: url(../font/Source_Sans_Pro/SourceSansPro-Regular.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: Source Sans Pro;
 }
 
 /* backgorund */
@@ -23,16 +28,69 @@ body {
   width: 80vw;
   display: flex;
   margin: auto;
-  background-color: aqua;
 }
 
 /* Konten Kiri */
 .container.dua .left {
+  display: flex;
   width: 50%;
+}
+
+.konten1 {
+  margin: 50% 0px;
 }
 
 .left img {
   width: 35px;
   height: 35px;
-  margin: auto;
+}
+
+.left h1 {
+  font-weight: lighter;
+  color: white;
+  margin-top: -40px;
+  margin-left: 40px;
+}
+
+/* KOnten kanan */
+.container.dua .right {
+  display: flex;
+}
+
+.konten2 {
+  margin-top: 30px;
+  border-radius: 5px;
+  padding: 50px;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.konten2 h1 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.konten2 p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.konten2 a {
+  text-decoration: none;
+}
+
+/* Form */
+form {
+  display: flex;
+}
+
+form label.email {
+  font-size: 12px;
+  color: gray;
+}
+
+form input.email {
+  width: 350px;
+  height: 20px;
+  margin-bottom: 20px;
 }
